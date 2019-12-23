@@ -1,0 +1,184 @@
+** Generated for: hspiceD
+** Generated on: Dec 20 17:51:39 2019
+** Design library name: 462_final_proj
+** Design cell name: gen_imp
+** Design view name: schematic
+
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+
+** Library name: 462_final_proj
+** Cell name: 1bit_v1
+** View name: schematic
+.subckt _sub0 a b ci gnd vdd nco ns
+mpm11 net54 ci ns vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm10 net49 b net54 vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm9 vdd a net49 vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm8 ns nco net36 vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm7 net36 ci vdd vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm6 net36 b vdd vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm5 net36 a vdd vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm4 nco a net52 vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm3 net52 b vdd vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm2 nco ci net24 vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm1 net24 b vdd vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm0 net24 a vdd vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mnm11 gnd b net51 gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm10 net51 a net50 gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm9 net50 ci ns gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm8 net33 ci gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm7 net33 a gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm6 net33 b gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm5 ns nco net33 gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm4 net53 b gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm3 nco a net53 gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm2 net22 b gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm1 net22 a gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm0 nco ci net22 gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+.ends _sub0
+** End of subcircuit definition.
+
+** Library name: 462_final_proj
+** Cell name: 2bit_v1_ep
+** View name: schematic
+.subckt _sub1 a0 a1 b0 b1 ci co1 gnd s0 s1 vdd nco0
+xi22 na1 nb1 nco0 gnd vdd co1 s1 _sub0
+xi21 a0 b0 ci gnd vdd nco0 net4 _sub0
+mnm0 s0 net4 gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm2 nb1 b1 gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm1 na1 a1 gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mpm2 s0 net4 vdd vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm1 nb1 b1 vdd vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+mpm0 na1 a1 vdd vdd gpdk090_pmos1v L=100e-9 W=360e-9 AD=100.8e-15 AS=100.8e-15 PD=1.28e-6 PS=1.28e-6 M=1
+.ends _sub1
+** End of subcircuit definition.
+
+** Library name: ele462
+** Cell name: projectdownscale4
+** View name: schematic
+.subckt projectdownscale4 gnd vddh vddl x z
+mnm6 net013 net013 q gnd gpdk090_nmos1v L=100e-9 W=300e-9 AD=84e-15 AS=84e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm5 net05 net05 net013 gnd gpdk090_nmos1v L=100e-9 W=480e-9 AD=134.4e-15 AS=134.4e-15 PD=1.52e-6 PS=1.52e-6 M=1
+mnm2 net07 net07 net05 gnd gpdk090_nmos1v L=100e-9 W=925e-9 AD=259e-15 AS=259e-15 PD=2.41e-6 PS=2.41e-6 M=1
+mnm0 q x gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm4 z q gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm3 z q vddl vddl gpdk090_pmos1v L=100e-9 W=240e-9 AD=67.2e-15 AS=67.2e-15 PD=1.04e-6 PS=1.04e-6 M=1
+mpm0 net07 x vddh vddh gpdk090_pmos1v L=100e-9 W=925e-9 AD=259e-15 AS=259e-15 PD=2.41e-6 PS=2.41e-6 M=1
+.ends projectdownscale4
+** End of subcircuit definition.
+
+** Library name: 462_final_proj
+** Cell name: transmission_gate
+** View name: schematic
+.subckt transmission_gate a b gnd sel selbar vdd
+mnm0 a sel b gnd gpdk090_nmos1v L=100e-9 W=250e-9 AD=70e-15 AS=70e-15 PD=1.06e-6 PS=1.06e-6 M=1
+mpm0 a selbar b vdd gpdk090_pmos1v L=100e-9 W=500e-9 AD=140e-15 AS=140e-15 PD=1.56e-6 PS=1.56e-6 M=1
+.ends transmission_gate
+** End of subcircuit definition.
+
+** Library name: 462_final_proj
+** Cell name: 2x1_mux
+** View name: schematic
+.subckt _sub2 a b gnd out sel vdd
+xi3 a out gnd sel selbar vdd transmission_gate
+xi4 b out gnd selbar sel vdd transmission_gate
+mnm0 selbar sel gnd gnd gpdk090_nmos1v L=100e-9 W=240e-9 AD=67.2e-15 AS=67.2e-15 PD=1.04e-6 PS=1.04e-6 M=1
+mpm0 selbar sel vdd vdd gpdk090_pmos1v L=100e-9 W=500e-9 AD=140e-15 AS=140e-15 PD=1.56e-6 PS=1.56e-6 M=1
+.ends _sub2
+** End of subcircuit definition.
+
+** Library name: 462_final_proj
+** Cell name: 16_bit_v1_8_8
+** View name: schematic
+.subckt _sub3 a<15> a<14> a<13> a<12> a<11> a<10> a<9> a<8> a<7> a<6> a<5> a<4> a<3> a<2> a<1> a<0> b<15> b<14> b<13> b<12> b<11> b<10> b<9> b<8> b<7> b<6> b<5> b<4> b<3> b<2> b<1> b<0> ci co<15> co<14> co<13> co<12> co<11> co<10> co<9> co<8> co<7> co<6> co<5> co<4> co<3> co<2> co<1> co<0> gnd s<15> s<14> s<13> s<12> s<11> s<10> s<9> s<8> s<7> s<6> s<5> s<4> s<3> s<2> s<1> s<0> sel vdd_nom vdd_var
+xi14 a<6> a<7> b<6> b<7> co<5> co<7> gnd s<6> s<7> vdd_var co<6> _sub1
+xi19 a<14> a<15> b<14> b<15> co<13> co<15> gnd s<14> s<15> vdd_nom co<14> _sub1
+xi10 a<0> a<1> b<0> b<1> ci co<1> gnd s<0> s<1> vdd_var co<0> _sub1
+xi12 a<2> a<3> b<2> b<3> co<1> co<3> gnd s<2> s<3> vdd_var co<2> _sub1
+xi13 a<4> a<5> b<4> b<5> co<3> co<5> gnd s<4> s<5> vdd_var co<4> _sub1
+xi16 a<8> a<9> b<8> b<9> net028 co<9> gnd s<8> s<9> vdd_nom co<8> _sub1
+xi17 a<10> a<11> b<10> b<11> co<9> co<11> gnd s<10> s<11> vdd_nom co<10> _sub1
+xi18 a<12> a<13> b<12> b<13> co<11> co<13> gnd s<12> s<13> vdd_nom co<12> _sub1
+xi11 gnd vdd_var vdd_nom co<7> net030 projectdownscale4
+xi20 net030 co<7> gnd net028 sel vdd_nom _sub2
+.ends _sub3
+** End of subcircuit definition.
+
+** Library name: 462_final_proj
+** Cell name: projectupscale3
+** View name: schematic
+.subckt projectupscale3 gnd vinh vinl x z
+mnm1 z net011 gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm0 net011 net021 gnd gnd gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mpm0 net011 net021 vinh vinh gpdk090_pmos1v L=100e-9 W=240e-9 AD=67.2e-15 AS=67.2e-15 PD=1.04e-6 PS=1.04e-6 M=1
+mpm1 z net011 vinh vinh gpdk090_pmos1v L=100e-9 W=240e-9 AD=67.2e-15 AS=67.2e-15 PD=1.04e-6 PS=1.04e-6 M=1
+e3 net021 x VCVS vinh vinl 500e-3
+.ends projectupscale3
+** End of subcircuit definition.
+
+** Library name: 462_final_proj
+** Cell name: 8_8_mux
+** View name: schematic
+.subckt _sub7 a<15> a<14> a<13> a<12> a<11> a<10> a<9> a<8> _net7 _net6 _net5 _net4 _net3 _net2 _net1 _net0 b<15> b<14> b<13> b<12> b<11> b<10> b<9> b<8> _net15 _net14 _net13 _net12 _net11 _net10 _net9 _net8 ci co<15> co<14> co<13> co<12> co<11> co<10> co<9> co<8> co<7> co<6> co<5> co<4> co<3> co<2> co<1> co<0> gnd s<15> s<14> s<13> s<12> s<11> s<10> s<9> s<8> _net16 _net17 _net18 _net19 _net20 _net21 _net22 _net23 sel vdd_nom vdd_var
+xi32 a<15> a<14> a<13> a<12> a<11> a<10> a<9> a<8> a<7> a<6> a<5> a<4> a<3> a<2> a<1> a<0> b<15> b<14> b<13> b<12> b<11> b<10> b<9> b<8> b<7> b<6> b<5> b<4> b<3> b<2> b<1> b<0> ci co<15> co<14> co<13> co<12> co<11> co<10> co<9> co<8> co<7> co<6> co<5> co<4> co<3> co<2> co<1> co<0> gnd s<15> s<14> s<13> s<12> s<11> s<10> s<9> s<8> s<7> s<6> s<5> s<4> s<3> s<2> s<1> s<0> sel vdd_nom vdd_var _sub3
+xi<0> gnd vdd_var vdd_nom _net0 net24<0> projectupscale3
+xi<1> gnd vdd_var vdd_nom _net1 net24<1> projectupscale3
+xi<2> gnd vdd_var vdd_nom _net2 net24<2> projectupscale3
+xi<3> gnd vdd_var vdd_nom _net3 net24<3> projectupscale3
+xi<4> gnd vdd_var vdd_nom _net4 net24<4> projectupscale3
+xi<5> gnd vdd_var vdd_nom _net5 net24<5> projectupscale3
+xi<6> gnd vdd_var vdd_nom _net6 net24<6> projectupscale3
+xi<7> gnd vdd_var vdd_nom _net7 net24<7> projectupscale3
+xi<8> gnd vdd_var vdd_nom _net8 net24<8> projectupscale3
+xi<9> gnd vdd_var vdd_nom _net9 net24<9> projectupscale3
+xi<10> gnd vdd_var vdd_nom _net10 net24<10> projectupscale3
+xi<11> gnd vdd_var vdd_nom _net11 net24<11> projectupscale3
+xi<12> gnd vdd_var vdd_nom _net12 net24<12> projectupscale3
+xi<13> gnd vdd_var vdd_nom _net13 net24<13> projectupscale3
+xi<14> gnd vdd_var vdd_nom _net14 net24<14> projectupscale3
+xi<15> gnd vdd_var vdd_nom _net15 net24<15> projectupscale3
+xi<100> net029<0> s<7> gnd _net16 sel vdd_nom _sub2
+xi<101> net029<1> s<6> gnd _net17 sel vdd_nom _sub2
+xi<102> net029<2> s<5> gnd _net18 sel vdd_nom _sub2
+xi<103> net029<3> s<4> gnd _net19 sel vdd_nom _sub2
+xi<104> net029<4> s<3> gnd _net20 sel vdd_nom _sub2
+xi<105> net029<5> s<2> gnd _net21 sel vdd_nom _sub2
+xi<106> net029<6> s<1> gnd _net22 sel vdd_nom _sub2
+xi<107> net029<7> s<0> gnd _net23 sel vdd_nom _sub2
+xi<16> net24<0> _net0 gnd a<0> sel vdd_var _sub2
+xi<17> net24<1> _net1 gnd a<1> sel vdd_var _sub2
+xi<18> net24<2> _net2 gnd a<2> sel vdd_var _sub2
+xi<19> net24<3> _net3 gnd a<3> sel vdd_var _sub2
+xi<20> net24<4> _net4 gnd a<4> sel vdd_var _sub2
+xi<21> net24<5> _net5 gnd a<5> sel vdd_var _sub2
+xi<22> net24<6> _net6 gnd a<6> sel vdd_var _sub2
+xi<23> net24<7> _net7 gnd a<7> sel vdd_var _sub2
+xi<24> net24<8> _net8 gnd b<0> sel vdd_var _sub2
+xi<25> net24<9> _net9 gnd b<1> sel vdd_var _sub2
+xi<26> net24<10> _net10 gnd b<2> sel vdd_var _sub2
+xi<27> net24<11> _net11 gnd b<3> sel vdd_var _sub2
+xi<28> net24<12> _net12 gnd b<4> sel vdd_var _sub2
+xi<29> net24<13> _net13 gnd b<5> sel vdd_var _sub2
+xi<30> net24<14> _net14 gnd b<6> sel vdd_var _sub2
+xi<31> net24<15> _net15 gnd b<7> sel vdd_var _sub2
+xi<108> gnd vdd_var vdd_nom s<7> net029<0> projectdownscale4
+xi<109> gnd vdd_var vdd_nom s<6> net029<1> projectdownscale4
+xi<110> gnd vdd_var vdd_nom s<5> net029<2> projectdownscale4
+xi<111> gnd vdd_var vdd_nom s<4> net029<3> projectdownscale4
+xi<112> gnd vdd_var vdd_nom s<3> net029<4> projectdownscale4
+xi<113> gnd vdd_var vdd_nom s<2> net029<5> projectdownscale4
+xi<114> gnd vdd_var vdd_nom s<1> net029<6> projectdownscale4
+xi<115> gnd vdd_var vdd_nom s<0> net029<7> projectdownscale4
+.ends _sub7
+** End of subcircuit definition.
+
+** Library name: 462_final_proj
+** Cell name: gen_imp
+** View name: schematic
+xi4 a<15> a<14> a<13> a<12> a<11> a<10> a<9> a<8> a<7> a<6> a<5> a<4> a<3> a<2> a<1> a<0> b<15> b<14> b<13> b<12> b<11> b<10> b<9> b<8> b<7> b<6> b<5> b<4> b<3> b<2> b<1> b<0> ci co<15> co<14> co<13> co<12> co<11> co<10> co<9> co<8> co<7> co<6> co<5> co<4> co<3> co<2> co<1> co<0> gnd s<15> s<14> s<13> s<12> s<11> s<10> s<9> s<8> s<7> s<6> s<5> s<4> s<3> s<2> s<1> s<0> sel vdd_nom vdd_var _sub7
+.END

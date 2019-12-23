@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      cbcook
+HostName                       davisson.princeton.edu
+ProcessIdentifier              11246
+ProcessCreationTime_UTC        1575654216
+ProcessCreationTime_Readable   Fri Dec  6 12:43:36 2019 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /n/homeserver2/user3a/cbcook/ele462/ele462/mirror_2_bit_fp/symbol/symbol.oa.cdslck
+TimeEditLocked                 Fri Dec  6 13:13:45 2019 EST
